@@ -31,7 +31,8 @@ public:
             }
             return maxlen;
         }
-        else
+        else {
             return 0;
+        }
     }
 };
